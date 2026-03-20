@@ -69,6 +69,36 @@ EXERCÍCIO 3 - ÁREA DO TRIÂNGULO
 EXERCÍCIO 4 - NOTAS E MEDIA PONDERADA
 EXERCÍCIO 5 - PREÇO DA GASOLINA
 
+EXERCÍCIO 3 - TRIÂNGULO
+/*
+ * Instituição: etecvav
+ * Data: 12/03/2026
+ * Autor: larissa dos Santos Mascoti
+ * Descrição: Ler a base e altura de um triângulo. Clcular e exibir a área do triângulo sabendo que a área é = a base * altura / 2
+ */
+
+programa {
+  funcao inicio() {
+    inteiro base
+    inteiro altura
+    inteiro area
+
+   //Qual a base
+  escreva("Digite a base do triângulo\n")
+   leia(base)
+
+   //qual a altura
+   escreva("Digite a altura do triângulo\n")
+   leia(altura)
+
+   // limpar console
+   limpa()
+
+   //calcula e responde a area do triângula
+   escreva("\nA área do triângulo é: ",base * altura /2)
+  }
+}
+
 EXERCÍCIO 4 - NOTAS
 /*
  * Instituição: etecvav
