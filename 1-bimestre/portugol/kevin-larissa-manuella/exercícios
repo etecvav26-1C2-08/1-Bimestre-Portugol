@@ -238,9 +238,9 @@ programa
 EXERCÍCIO 10 - CAIXA DE SUPERMERCADO
 /* 
  * 
- * Instituição: etecva
+ * Instituição: etecvav
  * Data: 15/03/2026
- * Autor: Larissa dos Santos Mascoti, Manuella de Oliveira Salvador, Kevin Willian da Silva Souza
+ * Autor: Kevin Willian da Silva Souza
  * Descricao: O caixa do supermercado recebe uma certa quantidade de moedas pordia. Ler a quantidade de moedas recebidas de acordo com cada um dos valores 1, 5, 10, 25 e 50 centavos, e ainda moedas de 1 real. Calcular e exibir o valor recebido de cada um dos tipos de moeda e a soma total em moedas
  * 
 */
