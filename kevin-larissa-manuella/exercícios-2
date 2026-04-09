@@ -150,5 +150,59 @@ programa
    }
 }
 
+EXERCÍCIO 4 - ESTACIONAMENTO
+
+EXERCÍCIO 5 - ETANOL OU GASOLINA
+/*
+ * Instituição: etecvav
+ * Data: 09/04/2026
+ * Autor: Manuella de Oliveira Salvador
+ * Descricao: Ler o preço do etanol e da gasolina e indicar qual combustível é mais vantajoso.
+*/
+programa
+{
+	
+	funcao inicio()
+	{
+	 //declarando as variavéis
+	 real gasolina 
+	 real etanol
+	 real limite
+
+      //descobrir e ler o preço da gasolina
+	 escreva("Qual é o valor da gasolina?\n")
+	 leia(gasolina)
+
+      //limpar console
+	 limpa()
+
+      //descobrir e ler o valor do etanol
+	 escreva("Qual é o valor do etanol?\n") 
+	 leia(etanol)
+
+      //limpar console
+	 limpa()
+
+     //especificar limite para preço
+     limite = gasolina * 70 / 100
+
+     
+     escreva("--- Resultado ---\n")
+	escreva("Limite para o etanol ser vantajoso: R$ ", limite, "\n")
+	escreva("Preço atual do etanol: R$ ", etanol, "\n")
+		
+
+
+     //responder se é melhor abastecer com gasolina ou etanol
+     se (etanol <= limite) {
+       escreva("Então pode abastecer com etanol.\n")
+	}
+	senao {
+		escreva("Melhor abastecer com gasolina.\n")
+	}
+	}
+}
+
+
 
 
