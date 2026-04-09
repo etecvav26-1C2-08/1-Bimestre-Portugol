@@ -1,0 +1,182 @@
+EXERCÍCIO 1 - CAVALOS
+/*
+ * Instituição: etecvav
+ * Data: 26/02/2026
+ * Autor: Larissa Mascoti e Manuella Salvador
+ * Descricao: O Haras Cavalos Brilhantes compra cavalos com frequencia. ler a quantidade de cavalos adquiridos recentemente, 
+ * calcular a quantidade de ferraduras necessarias para os novos cavalos e xibir a quantidade de novos cavalos e sua respectiva quantidade de ferraduras.
+ */
+programa
+{
+	
+	funcao inicio()
+	{
+	 inteiro cavalos
+	 cadeia ferraduras
+
+	 //perguntando quantidade de cavalos
+	 escreva("Quantos cavalos foram adquiridos recentemente?\n")
+
+	 //detectar quantidade de cavalos 
+	 leia(cavalos)
+
+	//limpar o console
+	limpa()
+	 
+	 //exibir número de cavalos
+	 escreva ("\nVocê adquiriu recentemente esse número de cavalos: " + cavalos)
+
+	 //exibir número de ferraduras necessarias
+	 escreva ("\nEntão você vai precisar desse número de ferraduras: " + cavalos * 4)
+
+    }
+}
+
+EXERCÍCIO 2 - NOME E IDADE
+/*
+ * Instituição: etecvav
+ * Data: 26/02/2026
+ * Autor: Larissa Mascoti e Manuella Salvador
+ * Descricao:Ler o nome e a idade do usuário. Calcular a idade em meses e dias. Exibir o nome e a idade em anos, meses e dias.
+*/
+programa
+{
+	
+	funcao inicio()
+	{
+	 cadeia nome
+	 inteiro idade
+
+	 //Qual o nome
+	 escreva("qual é o seu nome?\n")
+	 leia(nome)
+	 
+	 //Qual é idade
+	 escreva("qual é a sua idade?\n")
+  leia(idade)
+	 
+	 //limpar console
+	 limpa()
+	 
+    //calcular idade em meses e dias e exbir a idade e o nome
+	 escreva("\nseu nome é: " + nome)
+	 escreva("\nvocê tem tantos anos de meses: ", idade * 12)
+	 escreva("\nvocê tem tantos dias de vida: ", idade * 365)
+	}
+}
+
+EXERCÍCIO 6 - PESO EM GRAMAS
+ /*
+ * Instituição: etecvav
+ * Data: 12/03/2026
+ * Autor: Manuella de Oliveira Salvador
+ * Descrição: Ler o peso de uma pessoa em quilos. Calcular e mostrar o peso em gramas
+ * 
+ */
+ programa
+{
+	
+	funcao inicio()
+	{
+	inteiro peso
+
+//perguntar o peso da pessoa em quilos
+	escreva ("Qual é o seu peso em quilos?\n")
+
+//ler o peso da pessoa
+	leia(peso)
+
+//limpar o console
+	limpa()
+
+//calcular e exibir o peso da pessoa em gramas
+	escreva("\nVocê possui esse peso em gramas: " + peso * 1000)
+	}
+}
+
+EXERCÍCIO 7 - ÁREA DO TRAPÉZIO
+/*
+ * Instituição: etecvav
+ * Data: 12/03/2026
+ * Autor: Manuella de Oliveira Salvador
+ * Descrição: Ler a base menor, a base maior e a altura. Calcular e mostrara área de um trapézio: (
+ * base menor + base maior) + altura / 2
+*/
+programa
+{
+	
+	funcao inicio()
+	{
+     real base_maior
+     real base_menor
+     real altura
+    
+    //perguntar e ler a medida da base menor 
+     escreva("Qual é a medida da base menor desse trapézio?\n")
+     leia(base_menor)
+
+     //limpar console
+     limpa()
+
+    //perguntar e ler a medida da base maior
+     escreva("Qual é a medida da base maior desse trapézio?\n")
+     leia(base_maior)
+
+    //limpar console
+     limpa()
+
+    //perguntar e ler a medida do trapézio
+     escreva("Qual é a medida da altura desse trapézio?\n")
+     leia(altura)
+
+    //limpar console
+     limpa()
+
+    //calcular a área do trapézio e exibir a resposta
+     escreva("\nA área do trapézio é: ", base_menor + base_maior + altura / 2)
+     
+	}
+}
+
+EXERCÍCIO 8 - SALÁRIO DO VENDEDOR
+/*
+ * Instituição: etecvav
+ * Data: 16/03/2026
+ * Autor: Manuella de Oliveira Salvador
+ * Descrição: O vendedor recebeu seu salário fixo acrescido de comissões de vendas. Ler o sálario fixo do vendedor, o valor de suas 
+ * vendas e o percentual sobre as vendas e o percentual sobre as vendas. Calcular e exibir o salário final do vendedor.
+ */
+programa
+{
+	
+	funcao inicio()
+	{
+     real salario_fixo
+     real vendas
+     real percentual_vendas
+
+     //descobrir e ler o slário fixo do vendedor
+     escreva("Qual é o salário fixo do vendedor?\n")
+     leia(salario_fixo)
+
+     //limpar o console
+     limpa()
+
+     //descobrir e ler o valor das vendas 
+     escreva("Qual foi o valor das vendas do vendedor esse mês?\n")
+     leia(vendas)
+
+     //limpar console
+     limpa()
+
+     //descobrir e ler o percentual das vendas 
+     escreva("Qual é o percentual sobre as vendas do vendedor?\n")
+     leia(percentual_vendas)
+
+     //limpar console
+     limpa()
+
+     //calcular e exibir o salário final do vendedor
+     escreva("O salário final do vendendor neste mês será este valor em reais: ", vendas * percentual_vendas + salario_fixo)
+    }
+}
