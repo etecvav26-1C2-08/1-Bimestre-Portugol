@@ -65,6 +65,123 @@ programa
 	}
 }
 
+EXERCÍCIO 3 - TRIÂNGULO
+/*
+ * Instituição: etecvav
+ * Data: 12/03/2026
+ * Autor: larissa dos Santos Mascoti
+ * Descrição: Ler a base e altura de um triângulo. Clcular e exibir a área do triângulo sabendo que a área é = a base * altura / 2
+ */
+
+programa {
+  funcao inicio() {
+    inteiro base
+    inteiro altura
+    inteiro area
+
+   //Qual a base
+  escreva("Digite a base do triângulo\n")
+   leia(base)
+
+   //qual a altura
+   escreva("Digite a altura do triângulo\n")
+   leia(altura)
+
+   // limpar console
+   limpa()
+
+   //calcula e responde a area do triângula
+   escreva("\nA área do triângulo é: ",base * altura /2)
+  }
+}
+
+EXERCÍCIO 4 - NOTAS
+/*
+ * Instituição: etecvav
+ * Data: 12/03/2026
+ * Autor: Larissa dos Santos Mascoti
+ * Descrição:Ler 4 notas, calcular a média ponderada com os pesos 1, 2, 3, e 4 respectivamente e exibir as notas e o resultado da média.
+ * 
+ 
+ */programa
+ {
+  
+  funcao inicio() 
+  {
+inteiro nota1
+inteiro nota2
+inteiro nota3
+inteiro nota4
+ real media 
+   
+   //escrever a primeira nota
+   escreva("Digite a primeira nota: ")
+   leia(nota1)
+
+  //escrever a segunda nota
+   escreva("Digite a segunda nota: ")
+   leia(nota2)
+
+  //escreva a terceira nota
+   escreva("Digite a terceira nota: ")
+   leia(nota3)
+
+  //escreva a quarta nota
+   escreva("Digite a quarta nota: ")
+   leia(nota4)
+
+  //limpar console
+   limpa()
+
+   media = (nota1*1 + nota2*2 + nota3*3 + nota4*4) / (1+2+3+4)
+
+   //exibir a media poderada
+   escreva("\nNotas digitadas:")
+   escreva("\nNota 1: ", nota1)
+   escreva("\nNota 2: ", nota2)
+   escreva("\nNota 3: ", nota3)
+   escreva("\nNota 4: ", nota4)
+   escreva("\nA media ponderada é: ", media)
+
+   
+  
+  }
+}
+
+EXERCÍCIO 5 - COMBUSTÍVEL
+/*
+ * Instituição: etecvav
+ * Data: 12/03/2026
+ * Autor: Larissa dos Santos Mascoti
+ * Descrição: O motorista de aplicativo abastece o tanque do seu carro com um
+determinado valor em reais. Ler o preço do litro de combustível e o valor
+que pretende abastecer. Calcular a quantidade de litro no abastecimento
+e exibir os dados lidos e o valor calculado.
+ */
+
+programa {
+  funcao inicio() {
+
+
+     inteiro Litros_gasolina
+	   inteiro Preco_litro
+
+//escrever quantos litros deseja colocar
+	escreva("Quantos litros de gasolina deseja colocar? ")
+	leia(Litros_gasolina)
+
+	Preco_litro = Litros_gasolina * 5
+	
+  //limpar console
+  limpa()
+
+  //escrever você abasteceu o carro
+  escreva("Você abasteceu o carro com ", Litros_gasolina, " litros, e deverá pagar R$ ", Preco_litro)
+}
+  }
+}
+
+
 EXERCÍCIO 6 - PESO EM GRAMAS
  /*
  * Instituição: etecvav
