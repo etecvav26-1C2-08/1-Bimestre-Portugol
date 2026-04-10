@@ -255,6 +255,10 @@ programa
      escreva("Digite sua letra para analise.\n")
      leia(letra)
 
+    //limpar console
+     limpa()
+
+     //colocando as condições, se for entre as letras de vogal ele emite a mensagem de que é uma vogal; se não for ele emite a mensagem de que não é
      se (letra == 'a' ou letra == 'e' ou letra == 'i' ou letra == 'o' ou letra == 'u' ou letra == 'A' ou letra == 'E' ou letra == 'I' ou letra == 'O' ou letra == 'U') {
         escreva(letra, " é uma vogal :>\n")	
      }
