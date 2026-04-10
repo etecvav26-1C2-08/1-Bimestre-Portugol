@@ -237,6 +237,35 @@ programa
 	}
 }
 
+EXERCÍCIO 7 - VERIFICAR VOGAL
+/*
+ * Instituição: etecvav
+ * Data: 10/04/2026
+ * Autor: Manuella de Oliveira Salvador
+ * Descricao: Leia um caractere e verifique se ele é uma vogal . Exibir o caractere informado e indicar se é ou não uma vogal.
+*/
+programa
+{
+	
+	funcao inicio()
+	{
+	 caracter letra 	
+
+     //digitar e ler a letra
+     escreva("Digite sua letra para analise.\n")
+     leia(letra)
+
+     se (letra == 'a' ou letra == 'e' ou letra == 'i' ou letra == 'o' ou letra == 'u' ou letra == 'A' ou letra == 'E' ou letra == 'I' ou letra == 'O' ou letra == 'U') {
+        escreva(letra, " é uma vogal :>\n")	
+     }
+     senao {
+       escreva(letra, " não é uma vogal :<\n")
+     }
+
+     
+	}
+}
+
 EXERCÍCIO 8 - Ler três números
 
 /*
